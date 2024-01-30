@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header:hover{color: orange;}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+div a {
+    color: #D4B895;
+    text-decoration: none;
+   
+    transition: background-color 0.3s ease-in-out;
+}
+
+div a:hover {background-color: black;}
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+h2 {
+    color: #333; font-family: 'Arial', sans-serif; 
+}
+
+h3 {    color: orange;
+         font-size: 25px; 
+            margin-top: 0.5em; 
+            text-align: center; 
+        }
+
+p {
+    color: #666;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#gif  {
+            position: absolute;
+            top: 0;
+            left: 0,6;
+            width: 85px;
+            height: auto;
+            margin: 0,8em;
+        }
+
+        img {
+        width: 300px;
+        height: auto;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: 15vh 10vw;
+      grid-gap: 3vw;
+
+img {
+            width: 533px;
+            height: 400px;
+            display: block;
+            margin: 1em auto; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1em;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+.projekat:hover { color: grey;
+    opacity: 60%;
+    cursor: pointer;
+    transition-duration: 150ms; }
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer p:hover {color: orange;}
+
+
+
+
